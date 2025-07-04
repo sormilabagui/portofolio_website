@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portflio Website</title>
+    <link rel="stylesheet" href="stylep1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    <!--navigation menu-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Casiana</span>
+            </div>
+            <div class="links">
+                <div class="link"><a href="#">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#">Service</a></div>
+                <div class="link"><a href="#">Contact</a></div>    
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+
+        </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Service</a>
+                    <a href="#">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>  
+            </div>
+    </nav>
+    <section id="home1">
+        <div class="main-container">
+            <div class="image">
+                <img src="../image/portfolio1main.png" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left">
+                    Hey i'm
+                    <span>Casiana</span>
+                </h1>
+                <div class="typewriter">
+                    I'm a
+                    <span class="typewriter-text"></span>
+                    <label for=""></label>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore accusantium officiis harum nulla consequuntur! Qui temporibus quidem fugiat assumenda impedit reprehenderit totam? Rem optio pariatur voluptatum quam. Itaque, minus aspernatur?</p>
+                <div class="social-links">
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="btn">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <!--About section start-->  
+
+  <section class="about" id="about">
+    <div class="content">
+        <div class="title">
+            <span>About Me</span>
+        </div>
+        <div class="about-details">
+            <div class="left">
+                <img src="../image/portfolio1main.png" alt="">
+            </div>
+            <div class="right">
+                <div class="topic">Designing is My Passion</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident recusandae optio accusantium perferendis, temporibus quia nesciunt maxime est magnam soluta eligendi voluptas totam hic quod et fuga assumenda mollitia enim!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat saepe maiores deleniti eum, earum expedita, at facere incidunt dolores veritatis consequuntur. Accusantium voluptate quis dolorem vitae cupiditate consectetur atque corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur quam quae ipsam magni asperiores accusamus fuga ut facere porro, maxime mollitia at inventore. Id assumenda soluta fuga quo in.</p>
+                <div class="button">
+                    <button>Download CV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+<!--My Skills section start-->
+  <section class="skills" id="skills">
+    <div class="content">
+        <div class="title"><span>My skills</span></div>
+        <div class="skills-details">
+            <div class="text">
+            <div class="topic">
+                Skills Reflects Our Knowledge
+            </div>
+            <p data-aos="fade-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ullam corrupti illo, provident nihil libero praesentium mollitia fugit dolores, optio dicta ipsa inventore laboriosam. Numquam nobis eos eius blanditiis doloremque?</p>
+        
+            <div class="experiance">
+                <div class="num"></div>
+                <div class="exp">
+                    Learning for<br>
+                    Experiance
+                </div>
+            </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">HTML</div>
+                    <div class="per">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">CSS</div>
+                    <div class="per">80%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">JavaScript</div>
+                    <div class="per">50%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">PHP</div>
+                    <div class="per">50%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--Service section-->
+  <section class="services" id="services">
+    <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Web Devlopment</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi exercitationem temporibus eius adipisci esse, sint dignissimos architecto ea unde ipsa facere beatae voluptates distinctio est consequuntur iste tenetur sit dicta!</p>
+            </div>
+            
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-android"></i>
+                </div>
+                <div class="topic">Web Devlopment</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi exercitationem temporibus eius adipisci esse, sint dignissimos architecto ea unde ipsa facere beatae voluptates distinctio est consequuntur iste tenetur sit dicta!</p>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+
+  <!--contact-->
+  <section class="contact" id="contact">
+    <div class="content">
+        <div class="title">
+            <span>Contact Me</span>
+        </div>
+        <div class="text">
+            <div class="topic">
+                Have Any Project?
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ullam corrupti illo, provident nihil libero praesentium mollitia fugit dolores, optio dicta ipsa inventore laboriosam. Numquam nobis eos eius blanditiis doloremque?</p>
+            <div class="button">
+                <button>Let's Chat</button>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <div class="text">
+        <span>Created By
+            <a href="#">producer09</a>
+            &#169;2024 A Rights Reserved
+        </span>
+    </div>
+  </footer>
+
+<script src="script1.js"></script>
+</body>
+</html>
