@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portflio Website</title>
+    <link rel="stylesheet" href="stylep1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    <!--navigation menu-->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Casiana</span>
+            </div>
+            <div class="links">
+                <div class="link"><a href="#">Home</a></div>
+                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#skills">Skills</a></div>
+                <div class="link"><a href="#projects">Projects</a></div>
+                    
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+
+        </div>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>  
+            </div>
+    </nav>
+    <section id="home1">
+        <div class="main-container">
+            <div class="image">
+                <img src="../image/pfp1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left">
+                    Hey i'm
+                    <span>Casiana</span>
+                </h1>
+                <div class="typewriter">
+                    I'm a
+                    <span class="typewriter-text"></span>
+                    <label for=""></label>
+                </div>
+                <p>A curious learner walking the path of UI/UX, front-end web development, and soft chaotic designs. Documenting every step — from pastel layouts to pixel-perfect code, dark theme to soft cozy space.</p>
+                <div class="social-links">
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="btn">
+                    <button>Hire me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <!--About section start-->  
+
+  <section class="about" id="about">
+    <div class="content">
+        <div class="title">
+            <span>About Me</span>
+        </div>
+        <div class="about-details">
+            <div class="left">
+                <img src="../image/pfp1.jpg" alt="">
+            </div>
+            <div class="right">
+                <div class="topic">Designing and Exploring is My Passion</div>
+                <p> I’m Sormila Bagui, currently pursuing my MCA and I’ve completed my BCA as well. I come from a strong academic background with a CGPA of 8.59 in BCA and 8.80 in my current MCA semester.
+
+I enjoy working on creative and logical challenges — my interest in tech blends both. Recently, I created a Sweet Shop Management System using Python with TDD, and a To-Do List App in React using hooks and components.
+
+Outside of academics, I love digital art and storytelling. It helps me explore UI/UX design and understand how people interact with technology. I also read psychology and fiction books that shape how I think and communicate.
+
+I’m constantly learning, and what excites me most about software development is building real things from ideas — and improving with every attempt. I’m looking forward to opportunities where I can grow while contributing meaningfully.”</p>
+                <div class="button">
+                    <button>Download CV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+<!--My Skills section start-->
+  <section class="skills" id="skills">
+    <div class="content">
+        <div class="title"><span>My skills</span></div>
+        <div class="skills-details">
+            <div class="text">
+            <div class="topic">
+                Skills Reflects Our Knowledge
+            </div>
+            <p data-aos="fade-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ullam corrupti illo, provident nihil libero praesentium mollitia fugit dolores, optio dicta ipsa inventore laboriosam. Numquam nobis eos eius blanditiis doloremque?</p>
+        
+            <div class="experiance">
+                <div class="num"></div>
+                <div class="exp">
+                    Learning for<br>
+                    Experiance
+                </div>
+            </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">HTML</div>
+                    <div class="per">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">CSS</div>
+                    <div class="per">80%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">JavaScript</div>
+                    <div class="per">50%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">Python</div>
+                    <div class="per">50%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">React</div>
+                    <div class="per">50%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">UI/UX</div>
+                    <div class="per">50%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--Service section-->
+  <section class="projects" id="projects">
+    <div class="content">
+        <div class="title"><span>My Projects</span></div>
+        <div class="boxes">
+            <div class="box">
+                <div class="icon">
+                    <!--<i class="fas fa-desktop"></i>-->
+                </div>
+                <div class="topic">Web Devlopment Projects</div>
+                <p>A collection of responsive and interactive web pages built using HTML, CSS, and JavaScript. Each project focuses on clean layouts, smooth animations, and accessibility-friendly designs. Perfect for practicing layout techniques and improving front-end skills.</p>
+            </div>
+            
+            <div class="box">
+                <div class="icon">
+                    <!--<i class="fas fa-paint-brush"></i>-->
+                </div>
+                <div class="topic">JavaScript Projects</div>
+                <p>Mini-applications and interactive features created purely with JavaScript. From DOM manipulation challenges to beginner-friendly utilities, this section captures my journey of mastering logic and functionality in web development.</p>
+            </div>
+            
+            <div class="box">
+                <div class="icon">
+                    <!--<i class="fas fa-react"></i>-->
+                </div>
+                <div class="topic">Mini React Projects</div>
+                <p>Small-scale projects built with React.js to strengthen my understanding of components, props, and state management. Includes simple tools, UI widgets, and fun interactive concepts for hands-on learning.</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <!--<i class="fas fa-android"></i>-->
+                </div>
+                <div class="topic">Figma Designs</div>
+                <p>Creative UI/UX design concepts crafted in Figma. These range from landing pages to mobile app interfaces, exploring typography, color palettes, and layout composition while staying true to my aesthetic style.</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <!--<i class="fas fa-android"></i>-->
+                </div>
+                <div class="topic">Canva Creative Cards</div>
+                <p>A collection of Canva templates and creative cards focused on pastel palettes, clean layouts, and micro-compositions for social and portfolio use. These experiments explore visual hierarchy, spacing, and export-ready assets for quick publishing.</p>
+            </div>
+
+            <div class="box">
+                <div class="icon">
+                    <!--<i class="fas fa-android"></i>-->
+                </div>
+                <div class="topic">MERN Stack Projects</div>
+                <p>Full-stack web projects developed using MongoDB, Express.js, React, and Node.js. These explore CRUD operations, REST APIs, and dynamic front-end rendering for complete application workflows.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--contact-->
+  <section class="contact" id="contact">
+    <div class="content">
+        <div class="title">
+            <span>Contact Me</span>
+        </div>
+        <div class="text">
+            <div class="topic">
+                Have Any Project?
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ullam corrupti illo, provident nihil libero praesentium mollitia fugit dolores, optio dicta ipsa inventore laboriosam. Numquam nobis eos eius blanditiis doloremque?</p>
+            <div class="button">
+                <button>Let's Chat</button>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <div class="text">
+        <span>Created By
+            <a href="#">casiana@5</a> | 
+            &#169;2024 A Rights Reserved
+        </span>
+    </div>
+  </footer>
+
+<script src="script1.js"></script>
+</body>
+</html>
