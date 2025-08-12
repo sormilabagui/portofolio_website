@@ -291,14 +291,14 @@ section .title span::after{
     width: 55%;
 }
 section .topic{
-    color: white;
-    font-size: 25px;
-    font-weight: 500;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 .about-details .right p{
     text-align: justify;
-    color: white;
+    color: BLACK;
 }
 section .button{
     margin: 16px 0;
@@ -434,4 +434,5 @@ footer .text span a:hover{
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.15);
     display: none;
+
 }
