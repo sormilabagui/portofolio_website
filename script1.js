@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let isDeleting = false;
     const target = document.querySelector(".typewriter-text");
 
+    const githubButton = document.querySelector(".btn");
+    if (githubButton) {
+        githubButton.addEventListener("click", function () {
+            window.open("https://github.com/sormilabagui", "_blank");
+        });
+    }
+
     function typeLoop() {
         if (!isDeleting) {
             target.textContent += text.charAt(i);
