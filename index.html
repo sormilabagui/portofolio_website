@@ -3,35 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portflio Website</title>
-    <link rel="stylesheet" href="stylep1.css">
+    <title>Portfolio</title>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="personalportfolio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    
     <!--navigation menu-->
     <nav>
         <div class="nav-container">
             <div class="logo">
-                <span>Casiana</span>
+                <span>Sormila Bagui</span>
             </div>
             <div class="links">
-                <div class="link"><a href="#">Home</a></div>
-                <div class="link"><a href="#about">About</a></div>
+                <div class="link"><a href="#about">About Me</a></div>
                 <div class="link"><a href="#skills">Skills</a></div>
                 <div class="link"><a href="#projects">Projects</a></div>
-                    
+                <div class="link"><a href="#contact">Contact</a></div>   
+            </div>
+
+            <div class="togglecont">
+                <p><i class="fa-regular fa-sun"></i></p>
+                <div class="btn" id="toggle">
+                    <div class="btn-inner">
+                        <div class="btnstroke">
+                            <button></button>
+                        </div>
+                    </div>
+                </div>
+                <p><i class="fa-regular fa-moon"></i></p>
             </div>
             <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
 
         </div>
             <div class="dropdown">
                 <div class="links">
-                    <a href="#">Home</a>
                     <a href="#about">About</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
-                    
+                    <div class="link"><a href="#contact">Contact</a></div>
                     <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
                 </div>  
             </div>
@@ -39,225 +49,239 @@
     <section id="home1">
         <div class="main-container">
             <div class="image">
-                <img src="../image/pfp1.jpg" alt="">
+                <img src="../portfolio-website/image/pfp22.png" alt="">
             </div>
             <div class="content">
                 <h1 data-aos="fade-left">
-                    Hey i'm
-                    <span>Casiana</span>
+                    
+                    <span>Hey I'm Sormila Bagui</span>
                 </h1>
                 <div class="typewriter">
                     I'm a
                     <span class="typewriter-text"></span>
                     <label for=""></label>
                 </div>
-                <p>A curious learner walking the path of UI/UX, front-end web development, and soft chaotic designs. Documenting every step — from pastel layouts to pixel-perfect code, dark theme to soft cozy space.</p>
+                <p>A curious learner walking the path of UI/UX, front-end web development, and soft chaotic designs. Documenting every step - from pastel layouts to pixel-perfect code, dark theme to soft cozy space.</p>
                 <div class="social-links">
-                    <a href="https://github.com/sormilabagui">
+                    <a href="https://github.com/sormilabagui" target="_blank">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    <!--<a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>-->
-                    <a href="https://www.linkedin.com/in/sormila-bagui-0ab975372">
+                    
+                    <a href="https://www.linkedin.com/in/sormila-bagui-0ab975372" target="_blank">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    <!--<a href="#">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </div>
-                <div class="btn">
-                    <button>Hire me</button>
-                </div>-->
-                </div>
+                    
             </div>
         </div>
     </section>
 
-
-  <!--About section start-->  
+    <!--About section start-->  
 
   <section class="about" id="about">
     <div class="content">
-        <div class="title">
-            <span>About Me</span>
-        </div>
+        
         <div class="about-details">
+            
             <div class="left">
-                <img src="../image/pfp1.jpg" alt="">
+                <h3>More About Me</h3>
+                <div class="topic">Designing and Exploring is My Passion</div>
+                <p> I’m currently pursuing my MCA after completing my BCA. I love the sweet spot where creativity and logic meet. Whether it’s coding a small feature or sketching a design idea, I enjoy turning “what if” into “let’s try it.”
+
+I’ve worked on projects like a Sweet Shop Management System using Python and a To-Do List app in React, learning a ton about problem-solving along the way. Outside of coding, I love digital art and stories — they teach me how people think and feel, which inspires my approach to UI/UX.
+
+I’m curious, a constant learner, and happiest when I’m building something that makes life a little easier or more delightful.</p>
+                <a href="LDCE_MCA_SORMILA_BAGUI_RESUME_.pdf" download="My_resume" class="button">
+                    <button class="dwnlbtn">Download CV</button>
+                </a>
             </div>
             <div class="right">
-                <div class="topic">Designing and Exploring is My Passion</div>
-                <p> I’m Sormila Bagui, currently pursuing my MCA and I’ve completed my BCA as well. I come from a strong academic background with a CGPA of 8.59 in BCA and 8.80 in my current MCA semester.
-
-I enjoy working on creative and logical challenges — my interest in tech blends both. Recently, I created a Sweet Shop Management System using Python with TDD, and a To-Do List App in React using hooks and components.
-
-Outside of academics, I love digital art and storytelling. It helps me explore UI/UX design and understand how people interact with technology. I also read psychology and fiction books that shape how I think and communicate.
-
-I’m constantly learning, and what excites me most about software development is building real things from ideas — and improving with every attempt. I’m looking forward to opportunities where I can grow while contributing meaningfully.”</p>
-                <div class="button">
-                    <button>Download CV</button>
-                </div>
+                <img src="../portfolio-website/image/design.png" alt="">
             </div>
         </div>
     </div>
   </section>
 
 
-<!--My Skills section start-->
-  <section class="skills" id="skills">
-    <div class="content">
-        <div class="title"><span>My skills</span></div>
-        <div class="skills-details">
-            <div class="text">
-            <div class="topic">
-                Skills Reflects Our Knowledge
-            </div>
-            <p data-aos="fade-right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ullam corrupti illo, provident nihil libero praesentium mollitia fugit dolores, optio dicta ipsa inventore laboriosam. Numquam nobis eos eius blanditiis doloremque?</p>
-        
-            <div class="experiance">
-                <div class="num"></div>
-                <div class="exp">
-                    Learning for<br>
-                    Experiance
-                </div>
-            </div>
-            </div>
-            <div class="boxes">
-                <div class="box">
-                    <div class="topic">HTML</div>
-                    <div class="per">90%</div>
-                </div>
-                <div class="box">
-                    <div class="topic">CSS</div>
-                    <div class="per">80%</div>
-                </div>
-                <div class="box">
-                    <div class="topic">JavaScript</div>
-                    <div class="per">50%</div>
-                </div>
-                <div class="box">
-                    <div class="topic">Python</div>
-                    <div class="per">50%</div>
-                </div>
-                <div class="box">
-                    <div class="topic">React</div>
-                    <div class="per">50%</div>
-                </div>
-                <div class="box">
-                    <div class="topic">UI/UX</div>
-                    <div class="per">50%</div>
-                </div>
-            </div>
+
+
+  <!--My Skills section -->
+  <section class="skills-section" id="skills">
+    <!-- Left side (bars) -->
+     <div class="skills-bars">
+      <div class="skill" data-percent="90">
+        <div class="skill-header">
+          <span>HTML</span>
+          <span class="percentage">0%</span>
         </div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <div class="skill" data-percent="80">
+        <div class="skill-header">
+          <span>CSS</span>
+          <span class="percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <div class="skill" data-percent="70">
+        <div class="skill-header">
+          <span>JavaScript</span>
+          <span class="percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <div class="skill" data-percent="70">
+        <div class="skill-header">
+          <span>Python</span>
+          <span class="percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <div class="skill" data-percent="70">
+        <div class="skill-header">
+          <span>C</span>
+          <span class="percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+      <div class="skill" data-percent="50">
+        <div class="skill-header">
+          <span>UX/UI</span>
+          <span class="percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right side (text) -->
+    <div class="skills-text">
+      <div class="topic">
+        Skills
+      </div>
+      <h3>"Skills Reflects Our Knowledge"</h3>
+      <p>
+        I'm building a strong foundation in frontend development (HTML, CSS, JavaScript, React) 
+        and exploring Python for backend logic. I enjoy making web pages look great and work smoothly, 
+        and I’m learning more about user-friendly design every day.
+      </p>
+      <p>
+        Each project helps me get better at planning, debugging, and experimenting with new ideas. 
+        My goal is to keep improving my skills so I can confidently take on bigger, more challenging projects in the future.
+      </p>
     </div>
   </section>
 
-  <!--Service section-->
+<!--project section-->
   <section class="projects" id="projects">
-    <div class="content">
-        <div class="title"><span>My Projects</span></div>
+   <div class="content2">
+        <h2 class="projects-heading">My Projects</h2>
         <div class="boxes">
-              <div class="box">
+            <div class="box">
                 <div class="icon">
                     <!--<i class="fas fa-desktop"></i>-->
                 </div>
-                <div class="topic">Web Devlopment Projects</div>
+                <div class="topics">Web Devlopment Projects</div>
                 <p>A collection of responsive and interactive web pages built using HTML, CSS, and JavaScript. Each project focuses on clean layouts, smooth animations, and accessibility-friendly designs. Perfect for practicing layout techniques and improving front-end skills.</p>
-                <div class="btn">
-                    <button>View</button>
-                </div>
+                <a href="https://github.com/sormilabagui/html_css_practice" target="_blank" rel="noopener noreferrer">Read more →</a>
             </div>
             
             <div class="box">
                 <div class="icon">
                     <!--<i class="fas fa-paint-brush"></i>-->
                 </div>
-                <div class="topic">JavaScript Projects</div>
+                <div class="topics">JavaScript Projects</div>
                 <p>Mini-applications and interactive features created purely with JavaScript. From DOM manipulation challenges to beginner-friendly utilities, this section captures my journey of mastering logic and functionality in web development.</p>
-                <div class="btn">
-                    <button>View</button>
-                </div>
+                <a href="https://github.com/sormilabagui/Javascript_prac_projects" target="_blank" rel="noopener noreferrer">Read more →</a>
             </div>
             
             <div class="box">
                 <div class="icon">
                     <!--<i class="fas fa-react"></i>-->
                 </div>
-                <div class="topic">Mini React Projects</div>
+                <div class="topics">Mini React Projects</div>
                 <p>Small-scale projects built with React.js to strengthen my understanding of components, props, and state management. Includes simple tools, UI widgets, and fun interactive concepts for hands-on learning.</p>
-                <div class="btn">
-                    <button>View</button>
-                </div>
+                <a href="https://github.com/sormilabagui/React_mini_projects" target="_blank" rel="noopener noreferrer">Read more →</a>
             </div>
 
             <div class="box">
                 <div class="icon">
                     <!--<i class="fas fa-android"></i>-->
                 </div>
-                <div class="topic">Figma Designs</div>
+                <div class="topics">Figma Designs</div>
                 <p>Creative UI/UX design concepts crafted in Figma. These range from landing pages to mobile app interfaces, exploring typography, color palettes, and layout composition while staying true to my aesthetic style.</p>
-                <div class="btn">
-                    <button>View</button>
-                </div>
+                <a href="https://github.com/sormilabagui/Bloom_of_Chaotic_Creativity/tree/main/figma-designs" target="_blank" rel="noopener noreferrer">Read more →</a>
             </div>
 
             <div class="box">
                 <div class="icon">
                     <!--<i class="fas fa-android"></i>-->
                 </div>
-                <div class="topic">Canva Creative Cards</div>
+                <div class="topics">Canva Creative Cards</div>
                 <p>A collection of Canva templates and creative cards focused on pastel palettes, clean layouts, and micro-compositions for social and portfolio use. These experiments explore visual hierarchy, spacing, and export-ready assets for quick publishing.</p>
-                <div class="btn">
-                    <button>View</button>
-                </div>
+                <a href="https://github.com/sormilabagui/Bloom_of_Chaotic_Creativity/tree/main/canva_designs" target="_blank" rel="noopener noreferrer">Read more →</a>
             </div>
 
             <div class="box">
                 <div class="icon">
                     <!--<i class="fas fa-android"></i>-->
                 </div>
-                <div class="topic">MERN Stack Projects</div>
+                <div class="topics">MERN Stack Projects</div>
                 <p>Full-stack web projects developed using MongoDB, Express.js, React, and Node.js. These explore CRUD operations, REST APIs, and dynamic front-end rendering for complete application workflows.</p>
-                <div class="btn">
-                    <button>View</button>
-                </div>
+                <a href="#" target="_blank" rel="noopener noreferrer">Read more →</a>
             </div>
         </div>
     </div>
   </section>
 
   <!--contact-->
-  <section class="contact" id="contact">
-    <div class="content">
-        <div class="title">
-            <span>Contact Me</span>
-        </div>
-        <div class="text">
-            <div class="topic">
-                Have Any Project?
-            </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, ullam corrupti illo, provident nihil libero praesentium mollitia fugit dolores, optio dicta ipsa inventore laboriosam. Numquam nobis eos eius blanditiis doloremque?</p>
-            <div class="button">
-                <button>Let's Chat</button>
-            </div>
-        </div>
-    </div>
-  </section>
+  <section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <!--<p>Have a project idea, collaboration, or just want to say hi? Drop me a message!</p>-->
+    
+    <form action="https://formspree.io/f/mnnboyyb" method="POST">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button class="cont-btn" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
 
   <!--Footer-->
   <footer>
     <div class="text">
         <span>Created By
             <a href="#">casiana@5</a> | 
-            &#169;2024 A Rights Reserved
+            &#169;2025 A Rights Reserved
         </span>
     </div>
   </footer>
+  <script src="personalportfolio.js"></script>
 
-<script src="script1.js"></script>
 </body>
-
 </html>
-
-
